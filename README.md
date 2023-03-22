@@ -6,7 +6,7 @@
 ## 실행 방법
 - git clone https://github.com/poiuyy0420/demo.git
 - ./gradlew clean build
-- java -jar build/libs/
+- java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
 
 ## API 명세
 ### 1. Swagger
