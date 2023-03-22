@@ -45,7 +45,7 @@ public class NaverBlogApi implements SearchProvider {
     public BlogResultDto find(SearchDto request) {
         NaverBlogDto blogResponseFlux = webClient.get()
                 .uri(uriBuilder -> buildUrI(request))
-                .header("X-Naver-Client-Id1", naverApiConstant.getId())
+                .header("X-Naver-Client-Id", naverApiConstant.getId())
                 .header("X-Naver-Client-Secret", naverApiConstant.getSecret())
                 .retrieve()
                 .bodyToMono(NaverBlogDto.class)
