@@ -4,8 +4,8 @@ import lombok.Getter;
 
 @Getter
 public enum SortingType {
-    ACC("accuracy"),
-    REC("recency"),
+    ACC("ACCURACY"),
+    REC("RECENCY"),
     SIM("sim"),
     DATE("date");
 
