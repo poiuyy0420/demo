@@ -42,10 +42,4 @@ public class SearchController {
         return BaseResultFactory.create(searchService.getTopKeyword());
     }
 
-    @Operation(summary = "네이버 블로그 검색", description = "네이버 블로그 검색합니다.")
-    @GetMapping(value = "/search")
-    public BaseResult<BlogResultDto> search(SearchDto searchDto) {
-        return BaseResultFactory.create(searchService.search(searchDto));
-    }
-
 }
