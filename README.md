@@ -28,3 +28,5 @@
 ### 3. API 명세서 제공
 - 라이브러리 : springdoc-openapi-ui
 - REST API 문서화를 자동으로 만들어 주고 API 테스트가 가능합니다.
+
+![img_1.png](img_1.png)
